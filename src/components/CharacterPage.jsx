@@ -3,9 +3,9 @@ import { Navbar } from './navbar';
 import { ArrowLeft, Skull, User } from 'lucide-react';
 
 const characters = {
-  'the-watcher': {
-    name: 'THE WATCHER',
-    role: 'ANTAGONIST',
+  'ella-leonza': {
+    name: 'Ella-Leonza Calma',
+    role: 'Colossians 04:05-06',
     icon: 'skull',
     description: 'A mysterious entity that lurks in the shadows. It sees everything, knows everything, and feeds on your fear. You can\'t hide from what\'s already inside your mind.',
     fullBio: `The Watcher is not bound by the laws of reality as we understand them. It exists in the spaces between perception and truth, feeding on fear and uncertainty. Those who have encountered it describe a presence that seems to know their deepest secrets, their darkest fears.
