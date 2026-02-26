@@ -250,7 +250,7 @@ export function LandingPage() {
               {/* Replace this with actual video embed when ready */}
               {/* <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" ... /> */}
             </div>
-          </div>
+          </div> 
 
           {/* Screenshots Grid */}
           <div>
@@ -327,24 +327,24 @@ export function LandingPage() {
             {/* Blog Post 1 */}
             <article className="border border-gray-700 bg-black bg-opacity-50 overflow-hidden hover:border-white transition-colors group">
               <div className="aspect-video bg-gray-900 border-b border-gray-700 flex items-center justify-center">
-                <span className="text-gray-600">Featured Image</span>
+                <img src="/screenshots/Main Menu(1).png" alt="Purple background with T.R.U.S.T. logo" />
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
                   <span className="flex items-center gap-1">
                     <Calendar className="w-4 h-4" />
-                    Feb 20, 2024
+                    Feb 26, 2026
                   </span>
                   <span className="flex items-center gap-1">
                     <User className="w-4 h-4" />
-                    Dev Team
+                    Maria
                   </span>
                 </div>
                 <h3 className="text-2xl font-bold mb-3 tracking-wide group-hover:text-gray-300 transition-colors">
                   Development Update #1
                 </h3>
                 <p className="text-gray-400 mb-4">
-                  We're excited to share our progress on T.R.U.S.T. and give you a behind-the-scenes look at what we've been working on...
+                  We're excited to share our progress on T.R.U.S.T. and what we've been working on...
                 </p>
                 <Link to="/blog/development-update-1" className="text-white hover:text-gray-300 font-bold tracking-wide">
                   READ MORE →
