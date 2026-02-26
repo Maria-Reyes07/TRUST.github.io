@@ -176,7 +176,7 @@ export function LandingPage() {
             {/* Maria */}
             <div className="text-center group">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <img src="/public/assets/Maria.jpeg" alt="Maria" className="w-full h-full object-cover" />
+                <img src="/assets/Maria.jpeg" alt="Maria" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold mb-2 tracking-wide">Maria</h3>
               <p className="text-sm text-gray-500 mb-3 tracking-wider">GAME DIRECTOR / LEAD PROGRAMMER</p>
@@ -189,7 +189,7 @@ export function LandingPage() {
             {/* Talia */}
             <div className="text-center group">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <img src="/public/assets/talia.jpg" alt="Talia" className="w-full h-full object-cover" />
+                <img src="/assets/talia.jpg" alt="Talia" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold mb-2 tracking-wide">Talia</h3>
               <p className="text-sm text-gray-500 mb-3 tracking-wider">ANIMATOR / 3D ARTIST / CHARACTER DESIGNER</p>
@@ -202,7 +202,7 @@ export function LandingPage() {
             {/* Von */}
             <div className="text-center group">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <img src="/public/assets/von.png" alt="Von" className="w-full h-full object-cover" />
+                <img src="/assets/von.png" alt="Von" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold mb-2 tracking-wide">Von</h3>
               <p className="text-sm text-gray-500 mb-3 tracking-wider">3D ARTIST / CHARACTER DESIGNER</p>
