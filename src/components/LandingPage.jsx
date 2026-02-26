@@ -46,11 +46,11 @@ export function LandingPage() {
           <Skull className="w-24 h-24 text-gray-600 group-hover:text-white transition-colors" />
         </div>
         <div className="p-6">
-          <h3 className="text-3xl font-bold mb-2 tracking-wide">THE WATCHER</h3>
-          <p className="text-sm text-gray-500 mb-4 tracking-wider">ANTAGONIST</p>
+          <h3 className="text-3xl font-bold mb-2 tracking-wide">Ella-Leonza Calma</h3>
+          <p className="text-sm text-gray-500 mb-4 tracking-wider">Colossians 04:05-06</p>
           <p className="text-gray-400 leading-relaxed">
-            A mysterious entity that lurks in the shadows. It sees everything, knows everything, 
-            and feeds on your fear. You can't hide from what's already inside your mind.
+            “5 Walk in wisdom toward those who are outside, redeeming the time. 
+            6 Let your speech always be with grace, seasoned with salt, that you may know how you ought to answer each one.”
           </p>
           <p className="text-white font-bold tracking-wide mt-4 group-hover:text-gray-300 transition-colors">
             READ MORE →
@@ -176,7 +176,7 @@ export function LandingPage() {
             {/* Maria */}
             <div className="text-center group">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <img src="./src/assets/Maria.jpeg" alt="" />
+                <img src="/public/assets/Maria.jpeg" alt="Maria" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold mb-2 tracking-wide">Maria</h3>
               <p className="text-sm text-gray-500 mb-3 tracking-wider">GAME DIRECTOR / LEAD PROGRAMMER</p>
@@ -189,7 +189,7 @@ export function LandingPage() {
             {/* Talia */}
             <div className="text-center group">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <img src="./src/assets/talia.jpg" alt="Talia" className="w-full h-full object-cover" />
+                <img src="/public/assets/talia.jpg" alt="Talia" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold mb-2 tracking-wide">Talia</h3>
               <p className="text-sm text-gray-500 mb-3 tracking-wider">ANIMATOR / 3D ARTIST / CHARACTER DESIGNER</p>
@@ -202,7 +202,7 @@ export function LandingPage() {
             {/* Von */}
             <div className="text-center group">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-gray-700 group-hover:border-white transition-all duration-300 flex items-center justify-center bg-gray-900 overflow-hidden">
-                <img src="./src/assets/von.png" alt="Von" className="w-full h-full object-cover" />
+                <img src="/public/assets/von.png" alt="Von" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold mb-2 tracking-wide">Von</h3>
               <p className="text-sm text-gray-500 mb-3 tracking-wider">3D ARTIST / CHARACTER DESIGNER</p>

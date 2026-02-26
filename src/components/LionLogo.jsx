@@ -36,7 +36,7 @@ export function LionLogo() {
         <div className="mb-8 flex justify-center">
           <div className="relative group">
             <img 
-              src="./src/assets/trust-logo.png" // Update this path!
+              src="/public/assets/trust-logo.png" // Update this path!
               alt="Lion Logo"
               className="w-full h-auto max-w-[550px] mx-auto object-contain transition-transform duration-75"
                 style={{
