@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router';
-import { Navbar } from './navbar';
+import { Navbar } from './Navbar';
 import { ArrowLeft, Skull, User } from 'lucide-react';
 
 const characters = {

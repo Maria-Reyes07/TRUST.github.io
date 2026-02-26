@@ -1,5 +1,5 @@
 import { LionLogo } from './LionLogo';
-import { Navbar } from './navbar';
+import { Navbar } from './Navbar';
 import { Play, Download, Calendar, User, Users, Skull } from 'lucide-react';
 import { Link } from 'react-router';
 
