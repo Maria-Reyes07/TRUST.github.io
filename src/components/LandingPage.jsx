@@ -256,15 +256,23 @@ export function LandingPage() {
           <div>
             <h3 className="text-3xl font-bold mb-8 text-center tracking-wide">SCREENSHOTS</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {[1, 2, 3, 4, 5, 6].map((i) => (
-                <div 
-                  key={i}
+              {[
+                "/screenshots/elevator.png",
+                "/screenshots/keypad_and_door.png",
+                "/screenshots/phone_scene.png",
+                "/screenshots/roasry.png",
+                "/screenshots/placeholder_vexara.png",
+                "/screenshots/open_elevator.png"
+              ].map((src, index) => (
+                <div
+                  key={index}
                   className="aspect-video bg-gray-900 border border-gray-700 hover:border-white transition-colors cursor-pointer overflow-hidden group"
                 >
-                  <div className="w-full h-full flex items-center justify-center text-gray-600 group-hover:text-gray-400 transition-colors">
-                    Screenshot {i}
-                  </div>
-                  {/* Replace with actual images */}
+                  <img
+                    src={src}
+                    alt={`Screenshot ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               ))}
             </div>
