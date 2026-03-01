@@ -10,17 +10,17 @@ const blogPosts = [
     author: 'Dev Team',
     date: 'Feb 20, 2024',
     excerpt: "We're excited to share our progress on T.R.U.S.T. and give you a behind-the-scenes look at what we've been working on...",
-    image: null,
+    image:  '/public/screenshots/main_menu.png',
   },
-//   {
-//     id: 2,
-//     slug: 'art-of-horror',
-//     title: 'The Art of Horror',
-//     author: 'Art Director',
-//     date: 'Feb 15, 2024',
-//     excerpt: 'Creating the unsettling atmosphere of T.R.U.S.T. requires careful attention to visual design and psychological elements...',
-//     image: null,
-//   },
+  {
+    id: 2,
+    slug: 'development-update-2',
+    title: 'Development Update #2',
+    author: 'Dev Team',
+    date: 'Feb 28, 2024',
+    excerpt: 'We’ve made significant progress on T.R.U.S.T. and are excited to share what we’ve been working on...',
+    image: '/public/screenshots/splashscreen.png',
+  },
 //   {
 //     id: 3,
 //     slug: 'sound-design-deep-dive',
@@ -58,7 +58,13 @@ export function BlogList() {
           {blogPosts.map((post) => (
             <article key={post.id} className="border border-gray-700 bg-black bg-opacity-50 overflow-hidden hover:border-white transition-colors group">
               <div className="aspect-video bg-gray-900 border-b border-gray-700 flex items-center justify-center">
-                <span className="text-gray-600">Featured Image</span>
+                  {post.image && (
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  )}
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">

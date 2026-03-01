@@ -335,7 +335,7 @@ export function LandingPage() {
             {/* Blog Post 1 */}
             <article className="border border-gray-700 bg-black bg-opacity-50 overflow-hidden hover:border-white transition-colors group">
               <div className="aspect-video bg-gray-900 border-b border-gray-700 flex items-center justify-center">
-                <img src="/screenshots/Main Menu(1).png" alt="Purple background with T.R.U.S.T. logo" />
+                <img src="/screenshots/main_menu.png" alt="Purple background with T.R.U.S.T. logo" />
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
@@ -361,32 +361,32 @@ export function LandingPage() {
             </article>
 
             {/* Blog Post 2 */}
-            {/* <article className="border border-gray-700 bg-black bg-opacity-50 overflow-hidden hover:border-white transition-colors group">
+            <article className="border border-gray-700 bg-black bg-opacity-50 overflow-hidden hover:border-white transition-colors group">
               <div className="aspect-video bg-gray-900 border-b border-gray-700 flex items-center justify-center">
-                <span className="text-gray-600">Featured Image</span>
+                <img src="/screenshots/splashscreen.png" alt="Black background with Inter Merit Club. splash screen" />
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
                   <span className="flex items-center gap-1">
                     <Calendar className="w-4 h-4" />
-                    Feb 15, 2024
+                    Feb 28, 2026
                   </span>
                   <span className="flex items-center gap-1">
                     <User className="w-4 h-4" />
-                    Art Director
+                    Maria
                   </span>
                 </div>
                 <h3 className="text-2xl font-bold mb-3 tracking-wide group-hover:text-gray-300 transition-colors">
-                  The Art of Horror
+                  Development Update #2
                 </h3>
                 <p className="text-gray-400 mb-4">
-                  Creating the unsettling atmosphere of T.R.U.S.T. requires careful attention to visual design and psychological elements...
+                  We’ve made significant progress on T.R.U.S.T. and are excited to share what we’ve been working on...
                 </p>
-                <Link to="/blog/art-of-horror" className="text-white hover:text-gray-300 font-bold tracking-wide">
+                <Link to="/blog/development-update-2" className="text-white hover:text-gray-300 font-bold tracking-wide">
                   READ MORE →
                 </Link>
               </div>
-            </article> */}
+            </article>
 
             {/* Blog Post 3 */}
             {/* <article className="border border-gray-700 bg-black bg-opacity-50 overflow-hidden hover:border-white transition-colors group">

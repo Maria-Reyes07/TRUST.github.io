@@ -37,7 +37,7 @@ export function BlogPost1() {
 
         {/* Featured Image */}
         <div className="aspect-video bg-gray-900 border border-gray-700 flex items-center justify-center mb-12">
-          <img src="/screenshots/Main Menu(1).png" alt="Purple background with T.R.U.S.T. logo" />
+          <img src="/screenshots/main_menu.png" alt="Purple background with T.R.U.S.T. logo" />
         </div>
 
         {/* Content */}
@@ -97,7 +97,7 @@ export function BlogPost1() {
             ← ALL POSTS
           </Link>
           <Link 
-            to="/blog/art-of-horror"
+            to="/blog/development-update-2"
             className="text-gray-400 hover:text-white transition-colors font-bold tracking-wide"
           >
             NEXT POST →
