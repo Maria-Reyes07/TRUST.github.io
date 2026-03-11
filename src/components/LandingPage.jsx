@@ -202,6 +202,16 @@ export function LandingPage() {
                 With an amazing talent for creating unsettling and surreal visuals,
                 Talia brings the twisted world of T.R.U.S.T. to life with her hauntingly beautiful art style.
               </p>
+                                       
+              {/* Instagram Placeholder */}
+              <a
+                href="https://www.instagram.com/earthlysanimehaven/"
+                className="text-sm text-gray-400 hover:text-white transition-colors duration-300 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Insta: @earthlysanimehaven
+              </a>
             </div>
 
             {/* Von */}
@@ -215,6 +225,16 @@ export function LandingPage() {
                 Von's way of capturing the character's emotions and expressions is truly remarkable. 
                 His work on the character design adds a layer of depth and realism that makes the horror feel all the more personal.
               </p>
+                          
+              {/* Instagram Placeholder */}
+              <a
+                href="https://www.instagram.com/v5.7anime/"
+                className="text-sm text-gray-400 hover:text-white transition-colors duration-300 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Insta: @v5.7anime
+              </a>
             </div>
           </div>
 
